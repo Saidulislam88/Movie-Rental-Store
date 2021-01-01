@@ -14,7 +14,8 @@ namespace MovieRentalStore
                         "~/Scripts/bootbox.js",
                         "~/Scripts/datatables/jquery.datatables.js",
                         "~/Scripts/datatables/datatables.bootstrap.js",
-                        "~/scripts/typeahead.bundle.js"
+                        "~/scripts/typeahead.bundle.js",
+                        "~/scripts/toastr.js"
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -31,6 +32,7 @@ namespace MovieRentalStore
                       "~/Content/bootstrap-flatly (2).css",
                       "~/Content/datatables/css/datatables.bootstrap.css",
                       "~/content/typeahead.css",
+                      "~/content/toastr.css",
                       "~/Content/site.css"));
         }
     }
